@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kalipso_Demo_EN_Core</name>
+    </assembly>
+    <members>
+        <member name="M:Kalipso_Demo_EN_Core.Controllers.ProductsController.GetProducts">
+            <summary>
+            Lists all products.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Kalipso_Demo_EN_Core.Controllers.ProductsController.GetProducts(System.String)">
+            <summary>
+            Gets a specific product
+            </summary>
+            <param name="id">The product code</param>
+            <returns></returns>
+        </member>
+        <member name="M:Kalipso_Demo_EN_Core.Controllers.ProductsController.PutProducts(System.String,Kalipso_Demo_EN_Core.Models.Products)">
+            <summary>
+            Updates a product.
+            </summary>
+            <param name="id">Product code to update</param>
+            <param name="products"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
